@@ -2,7 +2,7 @@ export class DateHelper {
 
     public static toJsonDate(date: Date) {
 
-        //"2021-08-10T01:04:08.053Z"
+        //"2021-08-10T01:04:08.053Z "
 
         const year = date.getFullYear();
         const month = (date.getMonth()+1).toString().padStart(2,"0");
