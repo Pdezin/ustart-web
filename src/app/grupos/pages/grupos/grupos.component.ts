@@ -26,4 +26,6 @@ export class GruposComponent implements OnInit {
     console.log(event.target.value);
   }
 
+  
+
 }
