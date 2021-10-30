@@ -40,7 +40,6 @@ export class GruposComponent implements OnInit {
   }
 
   public editar(grupo: Grupo): void {
-
     var url = `${AppRoutes.Grupos.CadGrupo()}/${grupo.id}`        
     this.router.navigateByUrl(url);
 
@@ -73,6 +72,4 @@ export class GruposComponent implements OnInit {
         console.log(erro);
       });
   }
-
-
 }
