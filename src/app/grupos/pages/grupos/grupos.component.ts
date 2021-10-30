@@ -31,7 +31,8 @@ export class GruposComponent implements OnInit {
   }
 
   public novoGrupo(): void {
-    console.log("novo grupo");
+    var url = `${AppRoutes.Grupos.CadGrupo()}/novo`        
+    this.router.navigateByUrl(url);
   }
 
   public localizar(event): void {    
