@@ -10,6 +10,10 @@ export const AppRoutes = {
     base: () => "grupos",
     CadGrupo: () => { return AppRoutes.Grupos.base() + "/cad-grupo" }    
   },
+  Clientes: {
+    base: () => "clientes",
+    CadCliente: () => { return AppRoutes.Clientes.base() + "/cad-cliente" }    
+  },
   Produtos: {
     base: () => "produtos",
     CadProduto: () => { return AppRoutes.Produtos.base() + "/cad-produto" }    
